@@ -1,0 +1,10 @@
+# first_arrival|exe_time_dist|deadline|period_dist
+#0|[1,.2;2,.8]|5|[7,.4;8,.6]
+---------------------
+# soft tasks
+# first_arrival|exe_time_dist|deadline|period_dist|cost
+0|[1,.2;2,.8]|4|[7,1]|6
+0|[2,.8;3,.2]|6|[8,1]|10
+0|[1,.8;3,.2]|7|[8,.3;9,.7]|8
+0|[1,1]|8|[9,1]|2
+0|[2,1]|9|[9,1]|4
