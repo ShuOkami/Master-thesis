@@ -21,7 +21,7 @@ def prepareLP(model, M):
 	#Build dictionary that will later contains the Linear-Program's strings to write. 
 	#M[1] is the function to optimize (Minimize/Maximize)
 	#M[2] is the list of all constraints
-	#M[3] is the final constraint for statistical equilibrium
+	#M[3] is the final constraint
 	#Each MDP's state represents a constraint
 
 	for i in range(model.nr_states):
