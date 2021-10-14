@@ -6,8 +6,6 @@ import taskmodel
 import gurobipy as gp
 from gurobipy import GRB
 
-#https://docs.google.com/spreadsheets/d/1dL2a4TVPY6VVq9mJx9eabCzVpXS5uRD_s2UollUrsO4/edit#gid=0
-
 
 
 def cleanArg(arg):
