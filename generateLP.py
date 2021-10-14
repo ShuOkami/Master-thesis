@@ -194,7 +194,7 @@ def main():
 	print("Generation computation time : ", round(end-start, 3), " seconds")
 
 
-	optimize(fileName) #No Gurobi license on my VM
+	#optimize(fileName) #No Gurobi license on my VM
 
 	start = time.time()
 
