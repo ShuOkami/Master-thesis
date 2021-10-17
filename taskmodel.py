@@ -8,6 +8,9 @@ from gurobipy import GRB
 import os
 from copy import deepcopy
 
+#Author : Guha Shibashis
+#Slight modifications : Paquet Michael
+
 edgeNumber = 1
 M = {1 : "", 2 : [], 3 : "r_00: "}
 
