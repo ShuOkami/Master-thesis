@@ -35,4 +35,24 @@ The command to run generateLP.py is the following : <br />
 ```
 python3 generateLP.py myTaskSystem
 ```
-where myTaskSystem is a text file stored in LPFile.
+where myTaskSystem is a text file following a specific format. <br />
+myTaskSystem must be stored in the TasksSet folder. <br />
+Once you have ran generateLP.py, a linear program will be writen in the LPFile folder. 
+
+### optimize.py
+
+You can run optimize.py with the following command:
+```
+python3 optimize.py myLpFile
+```
+where myLpFile is a linear program written in the LPFile folder, following the .lp format <br />
+Once finished, the program will write the solution of the linear program in the LPSol folder.
+
+### stormcheck.py
+
+This script will build the MDP from a task system and will perform Storm's default value iteration <br />
+Here is the command in order to run it :
+```
+python3 stormcheck.py myTaskSystem
+```
+where myTaskSystem is a text file following a specific format. <br />
