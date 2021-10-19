@@ -41,6 +41,7 @@ Once you have ran generateLP.py, a linear program will be writen in the LPFile f
 
 ### optimize.py
 
+This file will solve your linear programs. <br />
 You can run optimize.py with the following command:
 ```
 python3 optimize.py myLpFile
