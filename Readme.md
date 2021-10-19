@@ -2,7 +2,7 @@
 
 ## Michael's master's thesis
 
-This github repository include all the implementation used for the purpose of my master's thesis. <br />
+This github repository includes all the implementation used for the purpose of my master's thesis. <br />
 It builds, from a task system, the corresponding MDP and linear program. <br />
 Then, we can either perform value iteration from the MDP or solve the linear program using Gurobi's solver in order to find the safe and optimal strategy of the scheduler.
 
