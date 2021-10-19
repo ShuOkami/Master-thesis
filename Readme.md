@@ -2,9 +2,12 @@
 
 The present implementation makes use of many librabry and depedencies, find here the list of them, alongside some explanations on the installation
 
+- Stormpy
+- Gurobi
+
 ## Stormpy
 
-Stormpy is used in order to both build our model and perform value iteration
+Stormpy is used in order to both build our model and perform value iteration\\
 Find here the documentation of stormpy https://moves-rwth.github.io/stormpy/
 
 ## Gurobi
